@@ -1,0 +1,25 @@
+{
+    "caption": "Convert",
+    "doc": "",
+    "fields": {
+        "ABS": {
+            "caption": "XML Content",
+            "default_val": "",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "xml",
+            "optional": false,
+            "rank": 0,
+            "value": "text"
+        },
+        "ABY": {
+            "caption": "Selected fields",
+            "doc": "",
+            "editor": "StaticText",
+            "long_text": true,
+            "name": "selected_fields",
+            "optional": false,
+            "rank": 1
+        }
+    }
+}

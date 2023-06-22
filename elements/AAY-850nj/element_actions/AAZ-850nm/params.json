@@ -1,0 +1,139 @@
+{
+    "caption": "Get Data from  ",
+    "fields": {
+        "AAb": {
+            "caption": "Object Type",
+            "editor": "custom_type",
+            "name": "object_type",
+            "rank": 0
+        },
+        "AAd": {
+            "caption": "Selected fields",
+            "doc": "if you want in json only certain fields in the bubble object to select, the enumerations",
+            "editor": "StaticText",
+            "field_list": false,
+            "field_type_restriction": "text_image_file",
+            "name": "selectedFields",
+            "optional": true,
+            "rank": 1
+        },
+        "AAf": {
+            "caption": "File Name",
+            "default_val": "Zeroqode JSON",
+            "doc": "Give the JSON file a name",
+            "editor": "DynamicValue",
+            "name": "file_name",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Constraints",
+            "editor": "Label",
+            "name": "constraints",
+            "rank": 2
+        },
+        "AAi": {
+            "caption": "Key",
+            "default_val": "_all",
+            "doc": "This is the field name the constraint applies to. You can also use the reserved key _all for a full-text search in the database.",
+            "editor": "StaticText",
+            "name": "key",
+            "options": "",
+            "rank": 3
+        },
+        "AAj": {
+            "caption": "Constraint Type",
+            "default_val": "text contains",
+            "doc": "This is the type of constraint you want to apply. Documentation:https://bubble.io/reference#API.get_api.search_call",
+            "editor": "Dropdown",
+            "name": "constraint_type",
+            "optional": true,
+            "options": "equals,not equal,is_empty,is_not_empty,text contains,not text contains,greater than,less than,in,not in,contains,not contains,empty,not empty,geographic_search",
+            "rank": 4
+        },
+        "AAk": {
+            "caption": "Value",
+            "doc": "This is the value the constraint should compare to. It can be a string, number, list, etc.",
+            "editor": "DynamicValue",
+            "name": "value",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Geographic Search",
+            "editor": "Label",
+            "name": "geographic_search",
+            "rank": 6
+        },
+        "AAm": {
+            "caption": "Origin address",
+            "doc": "The central address that defines the center of the search, which should be a string address.",
+            "editor": "DynamicValue",
+            "name": "origin_address",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "Range",
+            "doc": "The range of the radius, defined in miles or kilometers, depending on the unit.",
+            "editor": "DynamicValue",
+            "name": "range",
+            "optional": true,
+            "rank": 8,
+            "value": "number"
+        },
+        "AAo": {
+            "caption": "Unit",
+            "default_val": "miles",
+            "doc": "The unit to use for the search. It can be miles (default) or km.",
+            "editor": "Dropdown",
+            "name": "unit",
+            "optional": true,
+            "options": "miles,km",
+            "rank": 9,
+            "value": "text"
+        },
+        "AAr": {
+            "caption": "Download json ",
+            "default_val": true,
+            "doc": "Download fisierul json ",
+            "editor": "Checkbox",
+            "name": "download_json",
+            "rank": 12
+        },
+        "AAs": {
+            "caption": "Sort field",
+            "doc": "Specify the field to use for sorting. ",
+            "editor": "StaticText",
+            "name": "sort_field",
+            "optional": true,
+            "rank": 10
+        },
+        "AAt": {
+            "caption": "Descending",
+            "default_val": false,
+            "doc": "This parameter can either be true or false (default).",
+            "editor": "Checkbox",
+            "name": "descending",
+            "rank": 11
+        },
+        "ABh": {
+            "caption": "Child Object Type",
+            "editor": "StaticText",
+            "name": "field_object_type",
+            "optional": true,
+            "rank": 14
+        },
+        "ABi": {
+            "caption": "Child Object Extract Fields",
+            "editor": "StaticText",
+            "long_text": true,
+            "name": "child_object_extract_fields",
+            "optional": true,
+            "rank": 15
+        }
+    }
+}

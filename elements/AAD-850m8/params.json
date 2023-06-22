@@ -1,0 +1,43 @@
+{
+    "add_is_visible": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 1,
+        "width": 1
+    },
+    "display": "Custom JS",
+    "events": {
+        "AAQ": {
+            "caption": "Completed",
+            "name": "the_function_has_been_executed"
+        },
+        "ABB": {
+            "caption": "Error",
+            "name": "custom_js_error"
+        }
+    },
+    "icon": "ion-social-javascript",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAR": {
+            "caption": "return your value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "return_you_value",
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Return your list with values",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "return_you_list_with_values",
+            "value": "text"
+        }
+    }
+}

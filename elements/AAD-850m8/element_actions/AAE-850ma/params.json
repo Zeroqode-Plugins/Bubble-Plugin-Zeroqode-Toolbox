@@ -1,0 +1,20 @@
+{
+    "caption": "Run ",
+    "fields": {
+        "AAN": {
+            "caption": "Return a lista",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "return_a_lista",
+            "rank": 0
+        },
+        "AAP": {
+            "caption": "Code js",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "you_js",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

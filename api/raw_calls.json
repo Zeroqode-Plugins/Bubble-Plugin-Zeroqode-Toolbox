@@ -1,0 +1,15 @@
+{
+    "calls": {
+        "ABN": {
+            "initialized": true,
+            "method": "get",
+            "name": "Bubble  result  (Deprecated)",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1617158035643x870588050789630000.plugin_api.ABN",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABN\":{\"caption\":\"Bubble search result  (Deprecated)\",\"fields\":{\"_p_field1\":{\"ret_value\":\"list.text\",\"caption\":\"field1\",\"sample_value\":\"null\",\"path\":[\"field1\"]},\"_p_field2\":{\"ret_value\":\"list.text\",\"caption\":\"field2\",\"sample_value\":\"null\",\"path\":[\"field2\"]},\"_p_field3\":{\"ret_value\":\"list.text\",\"caption\":\"field3\",\"sample_value\":\"null\",\"path\":[\"field3\"]},\"_p_field4\":{\"ret_value\":\"list.text\",\"caption\":\"field4\",\"sample_value\":\"null\",\"path\":[\"field4\"]},\"_p_field5\":{\"ret_value\":\"list.text\",\"caption\":\"field5\",\"sample_value\":\"null\",\"path\":[\"field5\"]},\"_p_field6\":{\"ret_value\":\"list.text\",\"caption\":\"field6\",\"sample_value\":\"null\",\"path\":[\"field6\"]},\"_p_field7\":{\"ret_value\":\"list.text\",\"caption\":\"field7\",\"sample_value\":\"null\",\"path\":[\"field7\"]},\"_p_field8\":{\"ret_value\":\"list.text\",\"caption\":\"field8\",\"sample_value\":\"null\",\"path\":[\"field8\"]},\"_p_field9\":{\"ret_value\":\"list.text\",\"caption\":\"field9\",\"sample_value\":\"null\",\"path\":[\"field9\"]},\"_p_field10\":{\"ret_value\":\"list.text\",\"caption\":\"field10\",\"sample_value\":\"null\",\"path\":[\"field10\"]},\"_p_field11\":{\"ret_value\":\"list.text\",\"caption\":\"field11\",\"sample_value\":\"null\",\"path\":[\"field11\"]},\"_p_field12\":{\"ret_value\":\"list.text\",\"caption\":\"field12\",\"sample_value\":\"null\",\"path\":[\"field12\"]},\"_p_field13\":{\"ret_value\":\"list.text\",\"caption\":\"field13\",\"sample_value\":\"null\",\"path\":[\"field13\"]},\"_p_field14\":{\"ret_value\":\"list.text\",\"caption\":\"field14\",\"sample_value\":\"null\",\"path\":[\"field14\"]},\"_p_field15\":{\"ret_value\":\"list.text\",\"caption\":\"field15\",\"sample_value\":\"null\",\"path\":[\"field15\"]},\"_p_field16\":{\"ret_value\":\"list.text\",\"caption\":\"field16\",\"sample_value\":\"null\",\"path\":[\"field16\"]},\"_p_field17\":{\"ret_value\":\"list.text\",\"caption\":\"field17\",\"sample_value\":\"null\",\"path\":[\"field17\"]}}}}",
+            "url": "https://bubblestate.herokuapp.com/"
+        }
+    }
+}

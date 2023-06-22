@@ -1,0 +1,44 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 1,
+        "width": 1
+    },
+    "display": "Search",
+    "events": {
+        "ABj": {
+            "caption": "Start search",
+            "name": "start_search"
+        },
+        "ABk": {
+            "caption": "Ended search",
+            "name": "ended_search"
+        }
+    },
+    "fields": {
+        "AAu": {
+            "caption": "Type of Content",
+            "editor": "custom_type",
+            "name": "type_of_content",
+            "optional": false,
+            "rank": 0
+        }
+    },
+    "icon": "ion-code",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAq": {
+            "caption": "Result",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n}"
+            },
+            "is_list": false,
+            "name": "retunJson",
+            "value": "custom_data_AAu"
+        }
+    }
+}

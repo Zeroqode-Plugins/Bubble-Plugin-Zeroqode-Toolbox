@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "Send XML/JSON data  to API backend workflows",
+    "fields": {
+        "ABf": {
+            "caption": "XML/JSON",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "xml",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABg": {
+            "caption": "url_endpoint",
+            "doc": "Enter \"workflow URL API\" which will capture the JSON",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "url_endpoint",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

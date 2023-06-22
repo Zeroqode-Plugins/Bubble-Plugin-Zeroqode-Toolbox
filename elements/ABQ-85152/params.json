@@ -1,0 +1,32 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 5,
+        "width": 5
+    },
+    "display": "Parse XML",
+    "fields": {
+        "ABX": {
+            "caption": "Bubble result",
+            "editor": "custom_type",
+            "name": "bubble_result",
+            "rank": 0
+        }
+    },
+    "icon": "ion-code-download",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ABW": {
+            "caption": "Result Bubble Object",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "result",
+            "value": "custom_data_ABX"
+        }
+    }
+}
